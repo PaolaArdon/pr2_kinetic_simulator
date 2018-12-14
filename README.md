@@ -1,6 +1,6 @@
 # PR2 Simulator for Grasping
 
-This repository provides the guidelines to install the PR2 simulator, for reaching and grasping application purposes, in ROS kinetic and Ubuntu 16.04LTS environment.
+This repository provides the guidelines to install the PR2 simulator, for reaching and grasping purposes, in ROS kinetic and Ubuntu 16.04LTS environment.
 
 ### Pre-requisites
 
