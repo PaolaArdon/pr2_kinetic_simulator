@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <scene>
+      <shadows>False</shadows>
+    </scene>
+
+    <include>
+      <static>true</static>
+      <uri>model://kitchen_dining</uri>
+      <name>kitchen_dining</name>
+      <pose>0.814804 2.255410 -0.287071 0 0 0</pose>
+    </include>
+
+<!--If enough computational power then use this kitchen_dining
+   <model name="kitchen_dining">
+      <pose>0.814804 2.255410 -0.287071 0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://kitchen_dining/meshes/kitchen_dining.dae</uri></mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>model://kitchen_dining/meshes/kitchen_dining.dae</uri></mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model-->
+
+  <!--  <model name="bowl">
+      <pose>0.669012 -0.387982 0.709860 0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://bowl/meshes/bowl.dae</uri></mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>model://bowl/meshes/bowl.dae</uri></mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="saucepan">
+      <pose>0.909789 0.755267 0.709860 0 0 -3.080470</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://saucepan/meshes/saucepan.dae</uri></mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>model://saucepan/meshes/saucepan.dae</uri></mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="plastic_cup">
+      <pose>0.831202 -0.332908 0.709860 0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://plastic_cup/meshes/plastic_cup.dae</uri></mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>model://plastic_cup/meshes/plastic_cup.dae</uri></mesh>
+          </geometry>
+        </collision>
+      </link>
+    </model> -->
+
+  </world>
+</sdf>

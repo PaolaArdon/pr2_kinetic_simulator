@@ -1,0 +1,34 @@
+<robot name="cup_model">
+  <link name="cup">
+    <inertial>
+      <mass value="0.390" />
+      <!-- center of mass (com) is defined w.r.t. link local coordinate system -->
+      <origin xyz="3.595183 0.015867 65.847145" /> 
+      <inertia  ixx="20170520576.000000" ixy="3078054.500000"  ixz="-991107008.000000"  iyy="21895452672.000000"  iyz="3139688.000000"  izz="15298384896.000000" />
+    </inertial>
+      <max_vel>0.1</max_vel>
+      <min_depth>0.001</min_depth>
+      <mu1>1.0</mu1>
+      <mu2>1.0</mu2>
+    <visual>
+      <!-- visual origin is defined w.r.t. link local coordinate system -->
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://system_launch/models/mesh/cup.dae" scale=".1 .1 .1" />
+      </geometry>
+    </visual>
+    <collision>
+      <!-- collision origin is defined w.r.t. link local coordinate system -->
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://system_launch/models/mesh/cup.dae" scale=".1 .1 .1" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="cup">
+    <material>Gazebo/Red</material>
+    <turnGravityOff>false</turnGravityOff>
+    <kp>100000000.0</kp>
+    <kd>1.0</kd>
+  </gazebo>
+</robot>
