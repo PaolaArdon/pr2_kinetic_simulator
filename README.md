@@ -42,4 +42,4 @@ python grasp_execution.py
 ```
 * You should see the gazebo and rviz with the object (mug) and the graspit module with the plans:
 
-![alt-text-1](https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/pr2_kitchen.png "title-1") ![alt-text-2](https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/graspIt_plans.png "title-2")
+![alt-text-1](https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/pr2_kitchen.png | width=100) ![alt-text-2](https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/graspIt_plans.png | width=100)
