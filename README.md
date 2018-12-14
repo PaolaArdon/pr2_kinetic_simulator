@@ -44,3 +44,9 @@ python grasp_execution.py
 
 
 <img src="https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/pr2_kitchen.png" width="240" height="200">   <img src="https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/rviz_pr2.png" width="240" height="200"> <img src="https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/graspIt_plans.png" width="240" height="200">
+
+### Modifying the objects to grasp
+
+* In the folder ~/path/to/grasp_it_modules/scripts there are two scripts: utils_grasp.py and grasp_execution.py. In the script utils_grasp.py you can change the object to be grasped. Two types of files have been tested: urdf and sdf.
+
+* If you wish to make use a differnt object make sure to have the 3D file of the object and place it in ~/path/to/graspit/models/objects alongside the respective xml. Additionally,  add the .xml that describes your world (transformation matrices and camera postion) in ~/path/to/graspit/worlds/ and change the gc.loadWorld name in the utils_grasp.py (line 18).
