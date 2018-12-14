@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/graspit/ply/ply.h
+stdio.h
+-
+stddef.h
+-
+
+/home/pardon/graspit/src/ply/ply.c
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+graspit/ply/ply.h
+-
+

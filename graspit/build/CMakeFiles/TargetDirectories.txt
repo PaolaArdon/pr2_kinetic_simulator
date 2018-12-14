@@ -1,0 +1,8 @@
+/home/pardon/graspit/build/CMakeFiles/edit_cache.dir
+/home/pardon/graspit/build/CMakeFiles/install.dir
+/home/pardon/graspit/build/CMakeFiles/list_install_components.dir
+/home/pardon/graspit/build/CMakeFiles/graspit.dir
+/home/pardon/graspit/build/CMakeFiles/rebuild_cache.dir
+/home/pardon/graspit/build/CMakeFiles/graspit_simulator.dir
+/home/pardon/graspit/build/CMakeFiles/install/strip.dir
+/home/pardon/graspit/build/CMakeFiles/install/local.dir

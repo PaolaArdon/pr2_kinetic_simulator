@@ -1,0 +1,13 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/Qt3Support
+-I/usr/include/qt4/QtSql
+-I/usr/include/qt4/QtCore
+-Dqh_QHpointer
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT3_SUPPORT
+-DQT_3SUPPORT_LIB
+-DQT_SQL_LIB
+-DQT_CORE_LIB
+-o
+/home/pardon/graspit/build/include/graspit/robots/moc_robotiq.cxx
+/home/pardon/graspit/include/graspit/robots/robotiq.h

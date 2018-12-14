@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+
+<!-- <fullTransform>(+1 0 0 0)[+8.37264e-06 +0.781957 +105.818]</fullTransform> -->
+
+
+<world>
+    <graspableBody>
+        <!--filename>models/objects/cup.xml</filename-->
+        <filename>models/objects/cup.xml</filename>
+        <transform>
+            <!--<rotationMatrix>0 1 0 0 0 1 1 0 0</rotationMatrix> -->
+            <fullTransform>(0.70711 0 0 -0.70711)[0 0 0]</fullTransform>
+
+        </transform>
+    </graspableBody>
+
+    <obstacle>
+        <filename>models/obstacles/plane.xml</filename>
+        <transform>
+            <fullTransform>(+1 0 0 0)[0 0 0]</fullTransform>
+            <!--<translation>460.183982 -26.490473 5.890768</translation> -->
+            <!--rotation matrix defined column wise. This rotates -90deg about z axis -->
+        </transform>
+    </obstacle>
+
+
+    <robot>
+        <filename>models/robots/pr2_gripper/pr2_gripper_2010.xml</filename>
+        <dofValues>0 0 +0 +0 0 +0 +0 0 +0 +0</dofValues>
+        <transform>
+            <fullTransform>(+1 0 0 0)[0 0 0]</fullTransform>
+
+        </transform>
+    </robot>
+    <camera>
+        <position>+512.727 +11.2119 +92.4714</position>
+        <orientation>+0.494626 +0.482173 +0.511852 +0.510746</orientation>
+        <focalDistance>+501</focalDistance>
+    </camera>
+</world>
