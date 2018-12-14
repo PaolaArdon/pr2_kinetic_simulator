@@ -41,4 +41,6 @@ cd ~/pr2_kinetic_simulator_ws/src/grasp_it_modules/script
 python grasp_execution.py
 ```
 * You should see the gazebo and rviz with the object (mug) and the graspit module with the plans:
-![graspit](https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/graspIt_plans.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/pr2_kitchen.png)  |  ![](https://github.com/PaolaArdon/pr2_kinetic_simulator/blob/master/images/graspIt_plans.png)
